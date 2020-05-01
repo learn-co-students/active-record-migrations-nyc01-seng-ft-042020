@@ -170,7 +170,7 @@ ActiveRecord::Base.connection.execute(sql)
 
 Using migrations, we will still need establish Active Record's connection to the
 database, but **_we no longer need the SQL!_** Instead of dealing with SQL
-directly, we provide the migrations we want and Active Record takes care of creating 
+directly, we provide the migrations we want and Active Record takes care of creating
 
 Since we still need to connect to the database, let's make the connection
 inside `config/environment.rb`:
@@ -405,7 +405,7 @@ reality, our two-digit system is very rudimentary. As you'll see later on,
 frameworks like Rails have generators that create migrations with very accurate
 timestamps, so you'll never have to worry about hand-numbering.
 
-Now that you've saved the migration, go back to the terminal to run 
+Now that you've saved the migration, go back to the terminal to run
 `rake db:migrate`.
 
 Awesome! Now go back to the console with the `rake console` command, and check
