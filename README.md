@@ -152,7 +152,7 @@ ActiveRecord::Base.establish_connection(
 )
 ```
 
-Then write some SQL to create the table:
+Then write some SQL to create the table:exit
 
 ```ruby
 sql = <<-SQL
